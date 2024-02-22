@@ -12,7 +12,16 @@
   },
   "rules": {
     "no-underscore-dangle": "off",
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"]
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "no-restricted-syntax": [
+      "error",
+      "LabeledStatement",
+      "WithStatement"
+    ]
   }
 }
