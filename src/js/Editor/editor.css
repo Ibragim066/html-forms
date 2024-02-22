@@ -1,0 +1,64 @@
+.table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.title-table {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #ea0866;
+    background-color: rgb(243 237 237);
+    border: 1px solid rgb(170, 161, 161);
+    border-radius: 0.25rem;
+}
+
+thead th {
+    padding: 5px;
+}
+
+.products {
+    font-size: 1.2rem;
+}
+
+.product-table {
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+tbody {
+    border: 1px solid black;
+    font-weight: 400;
+    color: #4d4949
+}
+
+.update {
+    margin-right: 5px;
+}
+
+.delete-message {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    border: 1px solid #570808;
+    padding: 10px;
+    background-color: #ebd8d8;
+}
+
+.editor-form-container {
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+
+.editor-form-container_visible,
+.delete-message_visible {
+    display: block;
+}
+
+.table span:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}

@@ -1,0 +1,42 @@
+#editor-form {
+    display: grid;
+    gap: 35px;
+    border: 1px solid #570808;
+    padding: 10px;
+    background-color: #ebd8d8;
+}
+
+.form-editor {
+    display: grid;
+    gap: 10px;
+}
+
+.label-editor {
+    text-align: left;
+    font-size: 1.15rem;
+}
+
+.btn-add {
+    background-color: #e4e1e1;
+    color: #363232;
+}
+
+.form-error_visible {
+    display: block;
+}
+
+form {
+    position: relative;
+}
+
+.form-control {
+    position: relative;
+}
+
+input:focus {
+    border: 1px solid rgb(226, 77, 77);
+}
+
+.input::placeholder {
+    color: rgb(190, 196, 196);
+}
